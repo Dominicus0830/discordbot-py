@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 import os
 load_dotenv()
 from discord.ext import commands
-from discord import ui
 import datetime
 
 PREFIX = os.environ['PREFIX']
